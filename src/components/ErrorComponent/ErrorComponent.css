@@ -1,0 +1,9 @@
+.error-container {
+    margin: 20px;
+    padding: 10px;
+    background-color: #ffcccc; /* Light red background */
+    color: #cc0000; /* Darker red text */
+    border: 1px solid #cc0000; /* Border to match text color */
+    border-radius: 5px; /* Slightly rounded corners for a softer look */
+  }
+  
