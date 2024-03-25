@@ -8,7 +8,7 @@ Before you begin, ensure you have met the following requirements:
 
 - [Node.js](https://nodejs.org/) (version 18 or above)
 - [npm](https://docs.npmjs.com/) (version 10 or above)
-- [Git](https://git-scm.com/) ((version 2 or above))
+- [Git](https://git-scm.com/) (version 2 or above)
 
 ### Checking Node.js and npm Versions
 
