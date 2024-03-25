@@ -1,0 +1,112 @@
+.property-table {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  .property-header {
+    display: flex;
+    border: none;
+    box-shadow: none;
+    flex:1;
+    width: 100%;
+    align-items: center;
+  }
+
+  .property-row {
+    display: flex;
+    border: none;
+    box-shadow: none;
+    flex:1;
+    width: 100%;
+    align-items: center;
+    transition: background-color 0.3s;
+  }
+  
+  .property-row:hover {
+    background-color: #f2f2f2; /* Light grey background on hover */
+  }
+
+  .header-item{
+    display:flex;
+    flex:1;
+    padding: 8px;
+    border: none;
+    text-align: left;
+    align-items: center;
+    overflow: hidden;
+  }
+
+  .row-item {
+    flex:1;
+    padding: 8px 20px 8px 8px;
+    border: none;
+    text-align: left;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  }
+  
+  .property-header .header-item {
+    color:gray;
+    text-align: left;
+  }
+  .status-button-container {
+    display: flex;
+    text-align: center;
+  }
+
+  .status-button {
+    background-color: gray; /* Gray background */
+    color: white; /* White text */
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth background transition */
+    border-radius: 16px;
+  }
+  
+  .status-button[data-verified="false"]:hover {
+    background-color: #6a5ecc; /* Change color on hover */
+    color: white;
+  }
+  
+  .status-button[data-verified="false"]:hover::after {
+    content: "Claim to Verify"; /* Change text on hover */
+  }
+  
+  .status-button[data-verified="false"]::after {
+    content: "Unverified"; /* Default text */
+  }
+  
+  .status-button[data-verified="true"]::after {
+    content: "Verified"; /* Text for verified status */
+  }
+
+  .address {
+    font-weight: bold;
+  }
+
+  .token-id {
+    color:#6a5ecc
+  }
+
+  .hover-underline {
+    position: relative;
+    display: inline-block; /* Needed for positioning the pseudo-element */
+  }
+  
+  .hover-underline::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    height: 1px; /* Height of the underline */
+    background: currentColor; /* Matches the text color */
+    transition: width 0.3s ease; /* Smooth transition for the width */
+  }
+  
+  .hover-underline:hover::after {
+    width: 100%;
+  }

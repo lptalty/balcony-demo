@@ -1,0 +1,42 @@
+.header {
+  position: fixed; /* Fixes the header at the top of the viewport */
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #fff; /* Or any color you prefer */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* padding: 10px 20px; Adjust the padding as needed */
+  padding: 10px 20px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Optional: adds a shadow for better separation */
+  z-index: 1000; /* Ensure the header is above other content */
+  height: 66px;
+  overflow: visible;
+}
+
+.logo {
+  height: 24px; /* Adjust based on your logo's size */
+}
+
+.login-button {
+  padding: 0 2.6rem;
+  margin-right: 20px;
+  background-color: #1e1231; /* Example button color */
+  color: white;
+  border: 1px solid transparent;
+  border-radius: 16px;
+  color: #fff;
+  height: 48px;
+  cursor: pointer;
+  font-family: Inter, sans-serif !important;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1;
+}
+
+.login-button:hover {
+  background-color: #6a5ecc; /* Darker shade on hover */
+  transition: background-color 0.3s ease;
+}
