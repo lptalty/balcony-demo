@@ -73,7 +73,7 @@ This command will show you the installed Git version if Git is installed, like g
 
 If Git is not installed, follow these steps to install it:
 
-#### On macOS
+### On macOS
 
 Using Homebrew:
 If you have Homebrew installed, run:
