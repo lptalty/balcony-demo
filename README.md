@@ -24,7 +24,7 @@ git --version
 
 If you don't have Node.js or npm installed, or if you need to update them, consider using Node Version Manager (NVM). This tool allows you to easily install and manage multiple versions of Node.js and npm.
 
-#### Installing NVM:
+### Installing NVM:
 
 **On Linux and macOS:**
 
@@ -41,7 +41,7 @@ For Windows, there's a separate version called [nvm-windows](https://github.com/
 
 Download and run the installer from the GitHub releases page.
 
-#### Using NVM to Install Node.js and npm:
+### Using NVM to Install Node.js and npm:
 
 After installing NVM, restart your terminal and then install Node.js using your terminal (this will also install npm):
 
@@ -51,12 +51,12 @@ then run
 
 `nvm use node`
 
-##### To install and use a specific version of Node.js and npm
+### To install and use a specific version of Node.js and npm
 
 `nvm install 18`
 `nvm use 18`
 
-##### Updating npm:
+### Updating npm:
 
 If you need to update npm to a specific version, you can do so using npm itself:
 
@@ -69,11 +69,11 @@ Before proceeding with cloning the project, ensure you have Git installed. To ch
 `git --version`
 This command will show you the installed Git version if Git is installed, like git version 2.30.1.
 
-#### Installing Git
+### Installing Git
 
 If Git is not installed, follow these steps to install it:
 
-##### On macOS
+#### On macOS
 
 Using Homebrew:
 If you have Homebrew installed, run:
@@ -110,20 +110,26 @@ After installing Git using either of the above methods, you can verify the insta
 
 `git --version`
 
-#### On Windows
+### On Windows
 
 Download and install the latest version from the Git website.
 During installation, accepting the default settings is generally safe for most users.
-On Linux
+
+### On Linux
+
 For Debian/Ubuntu-based distributions, run:
-Copy code
+
+```bash
 sudo apt-get update
 sudo apt-get install git
+```
+
 For Fedora, run:
 
-bash
-Copy code
+```bash
 sudo dnf install git
+```
+
 For other distributions, replace the package management command accordingly, or refer to the Git website for more installation options.
 
 After installing, you can verify the installation by running git --version again.
