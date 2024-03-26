@@ -14,9 +14,11 @@ Before you begin, ensure you have met the following requirements:
 
 Run the following commands in your terminal to check your Node.js and npm versions:
 
-`node -v`
-`npm -v`
-`git --version`
+```bash
+node -v
+npm -v
+git --version
+```
 
 ### Installing or Updating Node.js and npm
 
@@ -49,29 +51,29 @@ then run
 
 `nvm use node`
 
-### To install and use a specific version of Node.js and npm
+##### To install and use a specific version of Node.js and npm
 
 `nvm install 18`
 `nvm use 18`
 
-#### Updating npm:
+##### Updating npm:
 
 If you need to update npm to a specific version, you can do so using npm itself:
 
 `npm install -g npm@10.5.0`
 
-## Checking for Git
+### Checking for Git
 
 Before proceeding with cloning the project, ensure you have Git installed. To check if you have Git installed, open your terminal (for macOS and Linux) or command prompt/PowerShell (for Windows) and type:
 
 `git --version`
 This command will show you the installed Git version if Git is installed, like git version 2.30.1.
 
-### Installing Git
+#### Installing Git
 
 If Git is not installed, follow these steps to install it:
 
-#### On macOS
+##### On macOS
 
 Using Homebrew:
 If you have Homebrew installed, run:
@@ -80,11 +82,11 @@ If you have Homebrew installed, run:
 
 If you do not have Homebrew installed, you have a couple of options to install Git:
 
-#### Option 1: Install Git Directly
+##### Option 1: Install Git Directly
 
 - Download and install the latest version of Git from the [Git website](https://git-scm.com/download/mac).
 
-#### Option 2: Install Homebrew First
+##### Option 2: Install Homebrew First
 
 Homebrew is a package manager for macOS that makes installing and managing applications much easier. To install Homebrew and then use it to install Git, follow these steps:
 
@@ -102,7 +104,7 @@ Homebrew is a package manager for macOS that makes installing and managing appli
    brew install git
    ```
 
-#### Verifying Git Installation
+##### Verifying Git Installation
 
 After installing Git using either of the above methods, you can verify the installation by running:
 

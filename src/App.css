@@ -16,13 +16,6 @@
     margin-top: 20px;
   }
   
-  .footer {
-    margin-top: 20px;
-    padding: 20px 0;
-    background-color: #282c34;
-    color: white;
-  }
-  
   /* Utility classes */
   .hidden {
     display: none;

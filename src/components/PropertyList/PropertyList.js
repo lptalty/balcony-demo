@@ -73,7 +73,7 @@ const PropertyList = () => {
   useEffect(() => {
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
-  }, [handleScroll]); // The empty array [] means this effect will run once after the initial render
+  }, [handleScroll]);
 
   useEffect(() => {
     currentPageRef.current = currentPage; // Update ref whenever currentPage changes
